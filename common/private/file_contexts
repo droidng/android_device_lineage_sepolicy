@@ -12,3 +12,6 @@
 
 # Bash
 /(system_ext|system/system_ext)/bin/bash          u:object_r:shell_exec:s0
+
+# HID Gadget
+/dev/hidg[0-9]*          u:object_r:hid_gadget_device:s0
